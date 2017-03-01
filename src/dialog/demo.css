@@ -1,0 +1,120 @@
+p,h5{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.full-pop{
+	width: 410px;
+	border: 1px solid #B5BBBF;
+	font-family: 'Microsoft Yahei';
+	background-color: white;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.full-pop h5{
+	height: 44px;
+	line-height: 44px;
+	font-size: 18px;
+	border-bottom: 1px solid .#d8dce5;
+	padding: 0 20px;
+	cursor: move;
+}
+.full-pop h5 p{
+	display: inline;
+}
+.full-pop .close{
+	float: right;
+	color: #c7ced8;
+	font-size: 34px;
+}
+.full-pop .close:hover{
+	color: black;
+}
+.full-pop .dialog{
+	width: 410px;
+	padding: 20px;
+}
+.full-pop .dir-file{
+	line-height: 34px;
+	margin-bottom: 12px;
+	height: 34px;
+}
+.full-pop .dir-file span{
+	float: left;
+	margin-left: 10px;
+}
+.full-pop .file-img{
+	background: url(../imgs/file-small.png) no-repeat 0px 2px;
+	height: 34px;
+	width: 34px;
+}
+.full-pop .dir-box{
+	border: 1px solid #dedede;
+	font-size: 12px;
+}
+.full-pop .cur-dir{
+	padding: 8px 10px;
+	border-bottom: 1px solid #dedede;
+	color: #6c6c6c;
+}
+.full-pop .dirTree{
+	height: 200px;
+	overflow: auto;
+}
+.full-pop .pop-btns{
+	line-height: 60px;
+	text-align: right;
+	padding: 0 20px 20px;
+} 
+.full-pop .pop-btns a{
+	padding: 10px 20px;
+	margin-left: 8px;
+	border: 1px solid #ccc;
+}
+.full-pop .confirm{
+	background-color: #298ff4;
+	opacity: .5;
+	color: white; 
+}
+.full-pop .cancel{
+	color: black;
+}
+.full-pop .cancel:hover{
+	border-color: black;
+}
+.full-pop .error {
+	color:#ec202c;
+}
+#shareList li{
+	padding:5px 0 5px 60px;
+	border-bottom: 1px dashed rgba(160,162,163,.2);
+	
+}
+#shareList li a{
+	color:black ;
+	font:14px "微软雅黑";
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#shareList li:nth-of-type(1){
+	background: url(../../img/qzone.png) no-repeat 15px 3px;
+}
+#shareList li:nth-of-type(2){
+	background: url(../../img/weixin.png) no-repeat 15px 3px;
+}
+#shareList li:nth-of-type(3){
+	background: url(../../img/qq.png) no-repeat 15px 3px;
+}
+#shareList li:nth-of-type(4){
+	background: url(../../img/mail.png) no-repeat 15px 3px;
+}
+#shareList li:nth-of-type(5){
+	background: url(../../img/more.png) no-repeat 15px 3px;
+	background-size: 22px 22px;
+}
+#shareList li:hover{
+	background-color:rgba(166,166,166,0.3);
+}
