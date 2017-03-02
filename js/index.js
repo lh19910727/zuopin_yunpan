@@ -82,7 +82,8 @@ navRight.children[1].onclick = function() {
 
 var classNav = document.getElementById('classNav');
 var none = document.getElementById('none');
-
+none.style.backgroundPositionX=($('#contentBox').width()-200)/2+'px';
+none.style.backgroundPositionY=($('#contentBox').height()-200)/2+'px';
 //左侧文件夹点击事件
 contentLeft.onclick=function(e){
 	var target = e.target;

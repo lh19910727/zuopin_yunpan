@@ -371,10 +371,10 @@ display: none;
 	background-position: 0 0 ;
 }
 #classNav a{
-	background: url(../img/classNavBg.png) no-repeat 40px 0;
+	/*background: url(../img/classNavBg.png) no-repeat 40px 0;*/
 	vertical-align: middle;
 	height:100% ;
-	padding: 0 16px 15px;
+	padding: 0 16px 12px;
 	margin:0 10px -2px 0;
 	color: #4f5052;
 	font-size: 16px;
@@ -533,7 +533,7 @@ display: none;
 	height:580px;
 	left: 0;
 	top: 0;
-	background: url(../img/contentBg.png) no-repeat 347px 120px;
+	background: url(../img/contentBg.png) no-repeat ;
 	display: none;
 }
 #alertdelated{
